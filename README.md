@@ -70,8 +70,14 @@ rag-item-search "How long does standard shipping take?" --mode claude
 ```
 
 Optionally set `CLAUDE_MODEL` or pass `--model`. The default is
-`claude-sonnet-4-20250514`. The API key is read only from the environment and is
+`claude-sonnet-5`. The API key is read only from the environment and is
 never written or printed by this project.
+
+The default was checked against [Anthropic's model documentation](https://platform.claude.com/docs/en/models/overview)
+on September 5, 2026. Check model IDs, availability, and migration requirements
+periodically rather than assuming they remain stable. Claude requests omit
+sampling overrides because Sonnet 5 rejects non-default values such as
+`temperature=0`; only mock mode promises deterministic output.
 
 On macOS/Linux, set the key with `export ANTHROPIC_API_KEY="your-key"`.
 [.env.example](.env.example) lists the environment variables for reference;

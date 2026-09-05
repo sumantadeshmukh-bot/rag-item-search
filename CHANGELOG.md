@@ -9,9 +9,13 @@ User-visible changes are recorded here. Package versions are defined in
 
 - Contribution and security guidance.
 - GitHub bug-report, feature-request, and pull-request templates.
+- CLI subprocess tests for top-k truncation and relevance-threshold filtering.
 
 ### Changed
 
+- Updated the default Claude model to `claude-sonnet-5` in code and configuration
+  examples, removed its unsupported temperature override, and documented periodic
+  model checks.
 - Expanded README setup instructions, CLI reference, output documentation,
   corpus format, troubleshooting, and project limitations.
 
