@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-item-search"
+version = "0.1.0"
+description = "Small, transparent RAG example with stale-data handling and Claude"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+claude = ["anthropic>=0.40,<1"]
+
+[project.scripts]
+rag-item-search = "rag_item_search.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

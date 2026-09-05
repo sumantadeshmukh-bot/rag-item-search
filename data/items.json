@@ -1,0 +1,52 @@
+[
+  {
+    "id": "returns",
+    "title": "Returns and refunds",
+    "text": "Unused items can be returned within 30 days of delivery. Refunds are sent to the original payment method within five business days after inspection.",
+    "updated_at": "2026-08-15T00:00:00Z",
+    "max_age_days": 365
+  },
+  {
+    "id": "shipping",
+    "title": "Standard shipping",
+    "text": "Standard shipping takes three to five business days. Orders over 50 dollars qualify for free standard shipping.",
+    "updated_at": "2026-08-20T00:00:00Z",
+    "max_age_days": 365
+  },
+  {
+    "id": "express",
+    "title": "Express delivery",
+    "text": "Express delivery takes one to two business days and costs 12 dollars. It is unavailable for PO boxes.",
+    "updated_at": "2026-08-20T00:00:00Z",
+    "max_age_days": 365
+  },
+  {
+    "id": "warranty",
+    "title": "Product warranty",
+    "text": "Electronics include a one-year limited warranty covering manufacturing defects. Accidental damage is not covered.",
+    "updated_at": "2026-07-01T00:00:00Z",
+    "max_age_days": 365
+  },
+  {
+    "id": "membership",
+    "title": "Plus membership",
+    "text": "Plus membership costs 8 dollars per month and includes free express delivery and early access to selected sales.",
+    "updated_at": "2026-08-25T00:00:00Z",
+    "max_age_days": 180
+  },
+  {
+    "id": "support",
+    "title": "Customer support",
+    "text": "Customer support is available by chat Monday through Friday from 9 AM to 6 PM Eastern Time.",
+    "updated_at": "2026-08-10T00:00:00Z",
+    "max_age_days": 365
+  },
+  {
+    "id": "old-shipping-policy",
+    "title": "Legacy shipping promotion",
+    "text": "All orders qualify for free same-day shipping under the legacy launch promotion.",
+    "updated_at": "2023-01-01T00:00:00Z",
+    "max_age_days": 30
+  }
+]
+
